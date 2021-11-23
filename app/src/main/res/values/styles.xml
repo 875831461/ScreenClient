@@ -1,0 +1,18 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--设置显示返回键showTitle-->
+        <item name="actionBarStyle">@style/NavigationActionBarStyle</item>
+    </style>
+
+    <style name="NavigationActionBarStyle" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="background">@color/colorPrimary</item>
+        <!--设置显示返回键showTitle-->
+        <item name="displayOptions">homeAsUp|showCustom|showTitle</item>
+    </style>
+
+</resources>
