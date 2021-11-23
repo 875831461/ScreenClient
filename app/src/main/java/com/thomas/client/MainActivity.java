@@ -273,6 +273,8 @@ public class MainActivity extends AppCompatActivity {
         displayManager.unregisterDisplayListener(mDisplayListener);
         Intent service = new Intent(this, ScreenService.class);
         stopService(service);
+        Intent clientService = new Intent(this, ClientService.class);
+        stopService(clientService);
 
     }
 

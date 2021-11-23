@@ -52,6 +52,7 @@ public class ClientService extends Service {
         initServerSocket();
     }
 
+
     private void initServerSocket() {
         try {
             mServerSocket = new DatagramSocket();
@@ -124,6 +125,7 @@ public class ClientService extends Service {
     @Override
     public void onDestroy() {
         super.onDestroy();
+        System.out.println("onDestroy");
         mServerSocket.close();
     }
 
