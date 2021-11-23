@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">ScreenClient</string>
-    <string name="introduce">请将手机和电视连接同一网络。打开电视端的快投屏应用，程序会自动搜索到可连接的电视设备！</string>
+    <string name="introduce">请将手机和电视连接同一网络。打开电视端的投屏应用，程序会自动搜索到可连接的电视设备！</string>
     <string name="screen_capture_permission_refuse">拒绝录制</string>
     <string name="overlay_permission_refuse">浮窗拒绝</string>
     <string name="screen_capture_stop">停止录制</string>
