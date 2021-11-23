@@ -5,7 +5,6 @@ import android.view.Display;
 
 public class ApplicationInit extends Application {
     private static ApplicationInit Application;
-    private Display display;
 
     public static ApplicationInit get(){
         if (Application == null){
@@ -22,14 +21,6 @@ public class ApplicationInit extends Application {
     public void onCreate() {
         super.onCreate();
         Application = this;
-    }
-
-    public Display getPresentationDisplay() {
-        return display;
-    }
-
-    public void setPresentationDisplay(Display display) {
-        this.display = display;
     }
 
 }
